@@ -1,0 +1,1 @@
+that project is create for training habilites with rabbitmq and springboot
