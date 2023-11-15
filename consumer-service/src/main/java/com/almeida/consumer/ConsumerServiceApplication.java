@@ -1,13 +1,13 @@
-package com.almeida.spring_rabbitmq;
+package com.almeida.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringRabbitmqApplication {
+public class ConsumerServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringRabbitmqApplication.class, args);
+		SpringApplication.run(ConsumerServiceApplication.class, args);
 	}
 
 }

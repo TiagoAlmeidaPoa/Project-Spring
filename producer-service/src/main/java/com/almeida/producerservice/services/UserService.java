@@ -1,14 +1,11 @@
 package com.almeida.producerservice.services;
 
 import com.almeida.producerservice.entities.UserEntity;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.context.annotation.Bean;
-import org.springframework.messaging.Message;
 import org.springframework.stereotype.Service;
 
 import static com.almeida.producerservice.configs.RabbitMQConfigs.EXG_CREATE_USER;

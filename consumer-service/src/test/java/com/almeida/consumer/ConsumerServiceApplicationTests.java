@@ -1,10 +1,10 @@
-package com.almeida.spring_rabbitmq;
+package com.almeida.consumer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringRabbitmqApplicationTests {
+class ConsumerServiceApplicationTests {
 
 	@Test
 	void contextLoads() {
